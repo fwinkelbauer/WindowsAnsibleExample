@@ -1,0 +1,6 @@
+---
+- name: Simple ping
+  hosts: windows
+  tasks:
+  - name: ping
+    win_ping:
